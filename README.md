@@ -46,3 +46,4 @@ jwt.lifetime.min=${JWT_LIFETIME_MIN}
 
 - Add role-based authorization.
 - Implement rate limiting, email verification, and CAPTCHA to prevent user registration abuse.
+- Integrate cutting edge auth methods.
