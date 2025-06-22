@@ -17,7 +17,7 @@
 
 Set the following environment variables for use in `application.properties`:
 
-- `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` for database connection (MySQL out of the box, another one can be configured since Spring Data JPA has been integrated)
+- `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` for database connection (DB named 'users' should be created) (MySQL out of the box, another one can be configured since Spring Data JPA has been integrated)
 - `JWT_SECRET_KEY` (at least 256 bits)
 - `JWT_ISSUER` (JWT issuer name)
 - `JWT_LIFETIME_MIN` (token lifetime in minutes)

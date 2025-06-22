@@ -23,7 +23,7 @@ public class JWTService {
     @Value("${jwt.issuer}")
     private String jwtIssuer;
 
-    @Value("${jwt.lifetime.minp}")
+    @Value("${jwt.lifetime.min}")
     private Integer jwtLifetimeMin;
 
     public String generateToken(User user) {
