@@ -1,4 +1,4 @@
-# Spring Security JWT Template
+# Spring Security Template
 
 ## Features
 
